@@ -1,0 +1,26 @@
+.remodal {
+	background-color: #F6F7FB;
+	color: #5C5C5C;
+	max-width: 500px;
+	padding: 0;
+	padding-top: 35px;
+    overflow: hidden;
+}
+.remodal-close {
+	left: initial;
+	right: 0;
+}
+.remodal-title {
+	margin-bottom: 20px;
+}
+.remodal .control-label {
+	font-weight: inherit;
+}
+.remodal .form-group {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0 20px;
+}
+.remodal .btn {
+	margin-top: 15px;
+}

@@ -1,0 +1,54 @@
+<!-- views/login.ejs -->
+<!doctype html>
+<html>
+<head>
+    <title>BASES Tech Challenge</title>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:300,400">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/login.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="col-sm-6 col-sm-offset-3 login">
+        <!-- show any messages that come back with authentication -->
+        <% if (message.length > 0) { %>
+            <div class="alert alert-danger"><%= message %></div>
+        <% } %>
+
+        <!-- LOGIN FORM -->
+        <form action="/" method="post" class="form-horizontal">
+            <div class="form-group">
+                <label for="username" class="col-sm-3 control-label">Username</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control shadow" name="username" autofocus/>
+                </div>
+            </div>
+	    <div class="form-group">
+                <label for="username" class="col-sm-3 control-label">Year</label>
+                <div class="col-sm-6">
+                    <input type="number" class="form-control shadow" name="gradyear">
+                </div>
+            </div>
+	    <div class="form-group">
+                <label for="username" class="col-sm-3 control-label">Major</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control shadow" name="major">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="username" class="col-sm-3 control-label">Password</label>
+                <div class="col-sm-6">
+                    <input type="password" class="form-control shadow" name="password">
+                </div>
+            </div>
+
+            <button type="submit" class="btn col-sm-4 col-sm-offset-4">Add User</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

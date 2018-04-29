@@ -1,0 +1,47 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #F6F7FB;
+	color: #fff;
+	font-family: 'Raleway';
+	font-size: 22px;
+	font-weight: 300;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+.shadow {
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.20);
+	outline: 0;
+}
+.shadow:hover,
+.shadow:focus,
+.shadow.focused {
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.30);
+}
+.form-control {
+	background-color: #fff;
+	border: none;
+	border-radius: 0;
+	color: #5C5C5C;
+	font-size: 20px;
+	height: 35px;
+	outline: 0;
+	padding-left: 10px;
+}
+.btn {
+	background-color: #4D92DF;
+	border: none;
+	border-radius: 0;
+	color: #fff;
+	font-size: inherit;
+	outline: 0;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+	color: #ccc;
+}

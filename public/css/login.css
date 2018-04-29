@@ -1,0 +1,16 @@
+.login {
+	margin-top: 100px;
+}
+.login .logo {
+	margin-bottom: 40px;
+}
+.login .alert {
+	border-radius: 0;
+}
+.login .control-label {
+	color: #5C5C5C;
+	font-weight: inherit;
+}
+.login .btn {
+	margin-top: 20px;
+}

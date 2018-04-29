@@ -1,0 +1,67 @@
+.track {
+	background-color: #fff;
+	color: #5C5C5C;
+	margin-top: 20px;
+	max-width: 900px;
+    padding: 25px;
+}
+.event-info {
+	font-size: 16px;
+}
+.event-info .fa {
+    color: #458DD9;
+    display: inline;
+}
+.event-name {
+	font-size: 28px;
+}
+.download {
+	float: right;
+}
+.message-signin {
+	margin: 25px 0;
+}
+.email-signin {
+	background-color: #F6F7FB;
+	padding: 100px 20px;
+	margin-bottom: 0;
+}
+.email-label {
+	display: block;
+	font-size: 14px;
+}
+.placeholder-email.light {
+	color: #999;
+}
+.attendee-email {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	color: inherit;
+	display: none;
+	font-weight: inherit;
+	outline: 0;
+	padding: 0;
+}
+.attendee-email.visible {
+	display: inline-block;
+}
+.answer {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	color: inherit;
+	display: none;
+	font-weight: inherit;
+	outline: 0;
+	padding: 0;
+}
+.answer.visible {
+	display: inline-block;
+}
+.new-attendee {
+	max-width: 600px;
+}
+.message-new {
+	margin: 20px 0;
+}
