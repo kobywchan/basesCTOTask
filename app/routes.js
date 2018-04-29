@@ -12,6 +12,6 @@ module.exports = function(app, passport) {
         if (!req.body.username || !req.body.password || !req.body.gradyear || !req.body.major) {
             return res.render('login.ejs', { message: 'Please fill all fields.' });
         }
-	//Write your code here
+	return res.render('login.ejs', {});
     });
 }
